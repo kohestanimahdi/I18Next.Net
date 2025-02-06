@@ -303,7 +303,7 @@ public class DefaultTranslator : ITranslator
         return result;
     }
 
-    private async Task<ITranslationTree> ResolveTranslationTreeAsync(string language, string ns)
+    protected virtual async Task<ITranslationTree> ResolveTranslationTreeAsync(string language, string ns)
     {
         var cacheKey = $"{language}.{ns}";
         
