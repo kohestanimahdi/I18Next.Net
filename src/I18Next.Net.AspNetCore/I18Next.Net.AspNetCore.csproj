@@ -6,10 +6,11 @@
     <RepositoryUrl>https://github.com/kohestanimahdi/I18Next.Net</RepositoryUrl>
     <PackageProjectUrl>https://github.com/kohestanimahdi/I18Next.Net</PackageProjectUrl>
     <Version>1.0.0</Version>
-    <Authors>DarkLiKally</Authors>
+    <Authors>DarkLiKally,MahdiKouhestani</Authors>
     <RepositoryType>git</RepositoryType>
     <LangVersion>latest</LangVersion>
     <NoWarn>CS1591</NoWarn>
+      <AssemblyName>I18Next.Net.New.AspNetCore</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DocumentationFile>bin\Debug\I18Next.Net.AspNetCore.xml</DocumentationFile>

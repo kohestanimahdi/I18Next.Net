@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>DarkLiKally</Authors>
+    <Authors>DarkLiKally,MahdiKouhestani</Authors>
     <Company>DarkLiKally</Company>
     <Product>I18Next.Net</Product>
     <PackageProjectUrl>https://github.com/kohestanimahdi/I18Next.Net</PackageProjectUrl>
@@ -11,6 +11,7 @@
     <Version>1.0.0</Version>
     <LangVersion>latest</LangVersion>
     <NoWarn>CS1591</NoWarn>
+      <AssemblyName>I18Next.Net.New.PolyglotJs</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DocumentationFile>bin\Debug\I18Next.Net.PolyglotJs.xml</DocumentationFile>

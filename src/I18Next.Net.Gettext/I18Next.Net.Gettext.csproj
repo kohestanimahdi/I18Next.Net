@@ -2,7 +2,7 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>DarkLiKally</Company>
-    <Authors>DarkLiKally</Authors>
+    <Authors>DarkLiKally,MahdiKouhestani</Authors>
     <PackageProjectUrl>https://github.com/kohestanimahdi/I18Next.Net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/kohestanimahdi/I18Next.Net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -11,6 +11,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <NoWarn>CS1591</NoWarn>
+      <AssemblyName>I18Next.Net.New.Gettext</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DocumentationFile>bin\Debug\I18Next.Net.Gettext.xml</DocumentationFile>
